@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<h1>Spring Boot File upload example</h1>
+
+<form method="POST" enctype="multipart/form-data" id="fileUploadForm">
+    Name 
+    <input type="text" name="name"/><br/><br/>
+    City 
+    <input type="text" name="city"/><br/><br/>
+    Phone No 
+    <input type="text" name="phNum"/><br/><br/>
+    
+    <input type="file" name="files"/><br/><br/>
+    <input type="submit" value="Submit" id="btnSubmit"/>
+</form>
+
+<pre>
+    <span id="result"></span>
+</pre>
+
+ <script type="text/javascript"
+        src="webjars/jquery/2.2.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

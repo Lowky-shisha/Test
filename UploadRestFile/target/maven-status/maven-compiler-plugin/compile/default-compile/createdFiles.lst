@@ -1,0 +1,9 @@
+com\test\controller\RestUploadController.class
+com\test\model\Applicant.class
+com\test\controller\GlobalExceptionHandler.class
+com\test\service\WritetoExcel.class
+com\test\exception\RestGlobalExceptionHandler.class
+com\test\service\ReadFromExcel.class
+com\test\exception\CustomError.class
+com\test\SpringBootWebApplication.class
+com\test\controller\IndexController.class
